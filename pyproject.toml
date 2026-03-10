@@ -1,0 +1,11 @@
+[project]
+name = "portwatcher"
+version = "0.1.1"
+requires-python = ">=3.13"
+
+[project.scripts]
+portwatcher = "portwatcher.main:main"
+
+[build-system]
+requires = ["uv_build>=0.10.9,<0.11.0"]
+build-backend = "uv_build"
